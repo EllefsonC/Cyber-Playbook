@@ -30,3 +30,7 @@ Most of these commands will be pulled from random points around the internet, so
 
 ">>" is an output redirector but will not overwrite file but will apphend new info to bottom.
 
+"|" is called a pipe, and is used to redirect an output to another destination. This is usually used in conjunction with the "grep" command (globally search for a regular expression and print matching lines)
+
+"||" acts as an "or" statement. ex: false || echo Hello
+Hello would be printed to terminal. If it were true instead of false, then nothing would have printed.
