@@ -43,6 +43,8 @@ $PATH is a bash shell variable that contains a list that defines which directori
 
 . is for current directory
 
+
+
 **Options**(not exhaustive list, options are not all eligible to all commands):
 
 Can be used with commands to expand or modify the way the command behaves
