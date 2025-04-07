@@ -34,3 +34,19 @@ Most of these commands will be pulled from random points around the internet, so
 
 "||" acts as an "or" statement. ex: false || echo Hello
 Hello would be printed to terminal. If it were true instead of false, then nothing would have printed.
+
+Echo $(Variable name) to print in terminal the variable
+
+$PATH is a bash shell variable that contains a list that defines which directories the shell looks into to find commands
+
+.. is for parent directories
+
+. is for current directory
+
+**Options**(not exhaustive list, options are not all eligible to all commands):
+Can be used with commands to expand or modify the way the command behaves
+“-l” is the option of long listing, providing additional information about the files tha are listed, such as permission, and the size of the files
+“-r” is reverse and will print a list in reverse alphabetical order
+Options can also in most cases be used in conjunction with each other, they can be separate as -l -r or combined as -lr
+“-h” is human readable format: usually just converts bits to largest amount(10040 to 10.0K)
+Full word options are preceded by a “--” instead of one dash; - - human-readable(there is no space between dashes, only needed because docs combines them)
